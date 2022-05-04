@@ -1,7 +1,7 @@
 import { test, expect, Page } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('https://https://dev-tira-nextpress-testing.pantheonsite.io/');
+  await page.goto('https://dev-tira-nextpress-testing.pantheonsite.io/');
 });
 
 const TODO_ITEMS = [
