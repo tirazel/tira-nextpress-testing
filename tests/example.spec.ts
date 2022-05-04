@@ -7,8 +7,8 @@ test.beforeEach(async ({ page }) => {
 });
 
 test.describe('Test 1', () => {
-  test('Test A', async ({ page }) => {
-    const response = await request.get(siteurl, {});
+  test('Test A', async ({ request }) => {
+    const response = await request.get(siteurl);
 
     await expect(response).toBeOK();
 
