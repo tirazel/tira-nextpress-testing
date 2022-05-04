@@ -1,6 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
 
-const siteurl = 'https://dev-tira-nextpress-testing.pantheonsite.io/';
+const siteurl = 'https://live-tira-nextpress-testing.pantheonsite.io/';
 
 test.beforeEach(async ({ page }) => {
   await page.goto(siteurl);
